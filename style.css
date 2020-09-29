@@ -1,0 +1,24 @@
+
+
+.jumbotron{
+    background: rgb(51,4,138);
+    background: linear-gradient(135deg, rgba(51,4,138,0.9776286353467561) 0%, rgba(253,29,95,0.9574944071588367) 50%, rgba(252,176,69,1) 100%);
+    padding:5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background: rgb(13,4,138);
+    background: linear-gradient(90deg, rgba(13,4,138,0.8657718120805369) 0%, rgba(253,29,95,0.9574944071588367) 50%, rgba(252,176,69,1) 100%); */
+}
+
+.card {
+    margin: auto;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card-img-top{
+    height:18rem;
+
+}
+
+
