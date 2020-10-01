@@ -1,24 +1,108 @@
+.jumbotron {
+  background: rgb(51, 4, 138);
+  background: linear-gradient(
+    135deg,
+    rgba(51, 4, 138, 0.9776286353467561) 0%,
+    rgba(253, 29, 95, 0.9574944071588367) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  padding: 4rem ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
-.jumbotron{
-    background: rgb(51,4,138);
-    background: linear-gradient(135deg, rgba(51,4,138,0.9776286353467561) 0%, rgba(253,29,95,0.9574944071588367) 50%, rgba(252,176,69,1) 100%);
-    padding:5rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* background: rgb(13,4,138);
-    background: linear-gradient(90deg, rgba(13,4,138,0.8657718120805369) 0%, rgba(253,29,95,0.9574944071588367) 50%, rgba(252,176,69,1) 100%); */
+
+.jumbotron h1 {
+  font-size: 70px;
+}
+
+.jumbotron p {
+  font-size: 30px;
+}
+
+.about {
+  margin: -1rem;
+}
+
+.about h1 {
+  font-size: 55px;
+}
+
+.about p {
+  font-size: 23px;
 }
 
 .card {
-    margin: auto;
-    display: block;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+  margin: auto;
+  margin-bottom: 300px;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card-img-top{
-    height:18rem;
-
+.card-img-top {
+  height: 18rem;
 }
 
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control-underlined {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.searchbar {
+  position: relative;
+  left: 40px;
+  padding-top: 20px;
+}
+
+.search {
+  position: relative;
+  top: 1px;
+  left: 20px;
+  margin: 0px;
+  /* margin-left: px; */
+}
+
+.bar {
+  position: relative;
+  left: -15px;
+}
+
+input:placeholder-shown {
+  border-color: #c02c71 !important;
+}
+
+input:not(:placeholder-shown) {
+  border-color: #c02c71 !important;
+}
+
+.fa {
+  color: #c02c71;
+}
+
+.meet {
+  position: relative;
+  left: 70px;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.line {
+  height: 3px;
+  width: 1235px;
+  background: linear-gradient(
+    135deg,
+    rgba(51, 4, 138, 0.9776286353467561) 0%,
+    rgba(253, 29, 95, 0.9574944071588367) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  position: relative;
+  left: 80px;
+  margin-bottom: 50px;
+}
 
