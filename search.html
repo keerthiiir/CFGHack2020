@@ -10,8 +10,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
   <link rel="stylesheet" href="style.css">
+
+
   <title>Skillsforce</title>
 </head>
 
@@ -45,15 +46,15 @@
     </div>
   </div>
 
-<!--  Jumbotron-->
- <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <div class="about">
-      <h1 class="display-4"><strong>Skillsforce</strong></h1>
-      <p class="lead">Focusing on the skills that matter</p>
+  <!--  Jumbotron-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="about">
+        <h1 class="display-4"><strong>Skillsforce</strong></h1>
+        <p class="lead">Focusing on the skills that matter</p>
+      </div>
     </div>
   </div>
-</div>  
 
 
 
@@ -75,18 +76,18 @@
       <div class="col-lg-8">
         <div class="searchbar">
 
-          <form>
+          <form id="searchbar">
             <div class="form-group mb-4">
               <div class="input-group-append">
                 <div class="col-lg-1">
                   <div class="search">
-                    <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i
+                    <button id="search-button" type="submit" class="btn btn-link text-primary"><i
                         class="fa fa-search"></i></button>
                   </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-5">
                   <div class="bar">
-                    <input id="exampleFormControlInput1" type="email" placeholder="What're you searching for?"
+                    <input id="skillInput" type="text" placeholder="What skill does do you need?"
                       class="form-control form-control-underlined">
                   </div>
                 </div>
@@ -98,10 +99,67 @@
     </div>
   </div>
 
+  <script type="text/javascript" src="search.js"></script>
+
+  <div class="container-fluid">
+    <div class="row-sm">
+      <div class="col-sm">
+        <p id="error" class="lead"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div id="results">
+
+      <!-- search result 1-->
+     
+
+      <!-- search result 2-->
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="result-2">
+
+          </div>
+        </div>
+      </div>
+
+      <!-- search result 3-->
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="result-3">
+
+          </div>
+        </div>
+      </div>
 
 
+      <!-- search result 4-->
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="result-4">
+
+          </div>
+        </div>
+      </div>
+
+      <!-- search result 5-->
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="result-5">
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
 
   <!-- Optional JavaScript -->
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
