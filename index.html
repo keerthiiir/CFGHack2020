@@ -10,9 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-
-
+  <link rel="stylesheet" href="./css/style.css">
   <title>Skillsforce</title>
 </head>
 
@@ -23,7 +21,7 @@
     <div class="row">
       <div class="col-sm">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="home.html">Skillsforce</a>
+          <a class="navbar-brand" href="index.html">Skillsforce</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,13 +29,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">Meet the team</a>
+                <a class="nav-link" href="./html/about.html">Meet the team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="search.html">Skill Search</a>
+                <a class="nav-link" href="./html/search.html">Skill Search</a>
               </li>
             </ul>
           </div>
@@ -46,75 +44,33 @@
     </div>
   </div>
 
-  <!--  Jumbotron-->
+  <!--Jumbotron-->
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <div class="about">
-        <h1 class="display-4"><strong>Skillsforce</strong></h1>
-        <p class="lead">Focusing on the skills that matter</p>
-      </div>
+      <h1 class="display-4"><strong>Skillsforce</strong></h1>
+      <p class="lead">Focusing on the skills that matter</p>
     </div>
   </div>
 
 
-
-  <!--Header Text-->
+  <!--Description-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm">
-        <div class="meet">
-          <h4 class="display-4"><strong>Start searching for the skills you need</strong></h4>
+      <div class="description">
+        <div class="col-lg">
+          <h1 class="display-4"><strong>About Us</strong></h1>
+          <p class="lead">Skillsforce is a skills search tool designed to increase the inclusivity of internal staffing
+            processes, help organisations eliminate bias, and build diverse teams.</p>
+          <ul>
+            <li class="lead">Candidates can be sure that only their relevant skills are being considered, and selection
+              is merit-based. The process doesn't favour natural self promoters.</li>
+            <li class="lead">Hiring managers can ensure they are building diverse teams by choosing team members with
+              different skill sets, and that their unconscious biases aren't causing unfairness and are not impacting
+              project success.</li>
+          </ul>
+          <p class="lead">Go to the <a href="./html/search.html">Skill Search</a> page to see Skillsforce in action.</p>
         </div>
       </div>
-    </div>
-  </div>
-
-
-  <!-- Underlined search bars -->
-  <div class="container-fluid">
-    <div class="row mb-5">
-      <div class="col-lg-8">
-        <div class="searchbar">
-
-          <form id="searchbar">
-            <div class="form-group mb-4">
-              <div class="input-group-append">
-                <div class="col-lg-1">
-                  <div class="search">
-                    <button id="search-button" type="submit" class="btn btn-link text-primary"><i
-                        class="fa fa-search"></i></button>
-                  </div>
-                </div>
-                <div class="col-lg-5">
-                  <div class="bar">
-                    <input id="skillInput" type="text" placeholder="What skill do you need?"
-                      class="form-control form-control-underlined">
-                  </div>
-                </div>
-              </div>
-          </form>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script type="text/javascript" src="search.js"></script>
-
-  <div class="container-fluid">
-    <div class="row-sm">
-      <div class="col-sm">
-        <p id="error" class="lead"></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid">
-    <div id="results">
-
-
-
-
     </div>
   </div>
 
@@ -142,8 +98,9 @@
     </div>
   </footer>
 
-  <!-- Optional JavaScript -->
 
+
+  <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
